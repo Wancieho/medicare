@@ -1,5 +1,123 @@
-#root {
-  width: 960px;
-  margin: 0 auto;
-  background: slategrey;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  background-color: whitesmoke;
 }
+
+.App {
+  display: block;
+}
+
+/*header start*/
+.wrap-outer-layer-header {
+  display: flex;
+  gap: 250px;
+  margin: 10px 10px;
+}
+
+.wrap-inner-layer-header {
+  display: flex;
+  gap: 10px;
+}
+
+#flex-items {
+  display: flex;
+}
+
+#p-click {
+  margin: auto 3px;
+}
+
+#ingredients {
+  background-color: lightgreen;
+  padding: 5px 5px;
+  border: 1px;
+  border-radius: 10px;
+}
+
+#material-container.visibles {
+  display: flex;
+  position: absolute;
+  top: 40px;
+  left: 400px;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  gap: 30px;
+}
+
+#material-container.invisibles {
+  display: none;
+}
+
+.natural-material {
+  display: block;
+}
+
+.logo-search-container:nth-child(1) {
+  width: fit-content;
+  background-color: lightgreen;
+}
+
+.logo-search-container:nth-child(2) {
+  width: 300px;
+  text-align: end;
+
+}
+
+.inputSearch:nth-child(1) {
+  position: relative;
+}
+
+.inputSearch:nth-child(1):focus {
+  background-color: black;
+  color: lime;
+}
+
+.inputSearch:nth-child(2) {
+  position: relative;
+  left: 10px;
+}
+
+select {
+  background-color: lightgreen;
+}
+
+
+
+/*header end*/
+
+/*App description content start*/
+.wrap-outer-description-layer {
+  margin: auto auto;
+
+}
+
+.wrap-outer-description-layer {
+
+  position: relative;
+  width: 900px;
+  height: 200px;
+}
+
+.wrap-inner-description-layer {
+  position: inherit;
+  text-align: center;
+
+}
+
+.wrap-inner-description-layer:nth-child(2)::before {
+  position: absolute;
+  justify-items: center;
+  align-items: center;
+  background-image: linear-gradient(rgb(87, 226, 22), darkblue);
+  transform: rotate(-45deg);
+  z-index: 2;
+}
+
+/*App description content end*/
