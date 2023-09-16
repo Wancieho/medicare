@@ -1,5 +1,123 @@
-#root {
-  width: 960px;
-  margin: 0 auto;
-  background: slategrey;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  letter-spacing: 1px;
+  background-image: url("./assets/Medicate-Global-image-logo1.jpg");
+  background-size: 210vh;
+  background-repeat: no-repeat;
+  word-spacing: 2px;
+  background-color: rgb(97, 148, 161);
 }
+
+
+#App {
+  display: block;
+}
+
+/*header start*/
+#wrap-outer-layer-header {
+  display: flex;
+  gap: 25px;
+}
+
+#wrap-inner-layer-header {
+  display: flex;
+  gap: 10px;
+}
+
+#header-right-side {
+  display: block;
+}
+
+#flex-items {
+  display: flex;
+}
+
+#p-click {
+  margin: auto 3px;
+}
+
+#ingredients {
+  position: relative;
+  background-color: rgb(15, 157, 201);
+  padding: 4.5px 13.5px;
+  font-weight: 600;
+  color: white;
+  border-color: rgb(15, 157, 201);
+  border-radius: 2px;
+}
+
+#material-container.visibles {
+  display: flex;
+  position: absolute;
+  top: 33px;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  gap: 30px;
+}
+
+#material-container.invisibles {
+  display: none;
+}
+
+#natural-material {
+  display: block;
+}
+
+.inputSearch:nth-child(1) {
+  position: relative;
+  height: 30px;
+  border: none;
+  color: white;
+  background-color: rgb(15, 157, 201);
+}
+
+.inputSearch:nth-child(2) {
+  position: relative;
+  padding: 2px 5px;
+  height: 30px;
+  left: 10px;
+  background-color: rgb(15, 157, 201);
+  font-weight: 600;
+  color: white;
+  border: none;
+}
+
+select {
+  border-color: rgb(15, 157, 201);
+  color: white;
+  height: 30px;
+  padding: 0px 8.5px;
+  background-color: rgb(15, 157, 201);
+  font-weight: 600;
+}
+
+select:hover {
+  z-index: 11;
+  background-color: rgb(7, 204, 106);
+  border-color: rgb(7, 204, 106);
+  color: white;
+
+}
+
+/*header end*/
+
+/*App description content start*/
+.wrap-inner-description-layer {
+  text-align: center;
+}
+
+h1 cite blockquote {
+  background-image: linear-gradient(to left,
+      rgba(87, 226, 22, 0.8),
+      rgba(46, 218, 160, 0.5),
+      rgba(15, 157, 201, 0.8));
+  /* transform: rotate(-20deg); */
+  color: whitesmoke;
+}
+
+/*App description content end*/

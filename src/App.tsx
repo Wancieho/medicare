@@ -1,13 +1,28 @@
-import "./App.css";
-
-import Header from "./components/layout/Header/header";
-
+import './App.css';
+import { AppComponents } from './imports';
 function App() {
   return (
-    <>
-      <Header />
-    </>
+    <div id="App">
+      <AppComponents.Header />
+      <div className="wrap-outer-description-layer">
+        <div className="wrap-inner-description-layer">
+          <h1>
+            <cite>
+              <blockquote>
+                "For over 50 Years Medicare Global has succeeded in treating and hospitalizing patients
+                from all over the globe by using basic to extreme rare herbs, plants, spices, and extracts and tonics from plants
+                to fight against viruses, bacteria, parasites, illnesses, and diseases to protect all races
+                who seek to live the healthy life they thrive for"
+              </blockquote>
+            </cite>
+          </h1>
+        </div>
+        <div className="wrap-inner-description-layer">
+          <div>App content goes here</div>
+        </div>
+      </div>
+
+    </div>
   );
 }
-
 export default App;
