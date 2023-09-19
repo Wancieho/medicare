@@ -1,5 +1,240 @@
-#root {
-  width: 960px;
-  margin: 0 auto;
-  background: slategrey;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  letter-spacing: 1px;
+  background-size: 210vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  word-spacing: 2px;
+  background-image: url("./assets/Medicate-Global-image-logo1.jpg");
+
 }
+
+#App {
+  display: block;
+}
+
+/*header start*/
+#wrap-outer-layer-header {
+  display: flex;
+  gap: 25px;
+}
+
+#wrap-inner-layer-header {
+  display: flex;
+  gap: 10px;
+}
+
+#header-right-side {
+  display: block;
+}
+
+#flex-items {
+  display: flex;
+}
+
+#p-click {
+  margin: auto 3px;
+}
+
+#ingredients {
+  position: relative;
+  background-color: rgb(15, 157, 201);
+  padding: 4.5px 13.5px;
+  font-weight: 600;
+  color: white;
+  border-color: rgb(15, 157, 201);
+  border-radius: 2px;
+}
+
+#material-container.visibles {
+  display: flex;
+  position: absolute;
+  top: 33px;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  gap: 30px;
+}
+
+#material-container.invisibles {
+  display: none;
+}
+
+#natural-material {
+  display: block;
+}
+
+.inputSearch:nth-child(1) {
+  position: relative;
+  height: 30px;
+  border: none;
+  color: white;
+  background-color: rgb(15, 157, 201);
+}
+
+.inputSearch:nth-child(2) {
+  position: relative;
+  padding: 2px 5px;
+  height: 30px;
+  left: 10px;
+  background-color: rgb(15, 157, 201);
+  font-weight: 600;
+  color: white;
+  border: none;
+}
+
+select {
+  border-color: rgb(15, 157, 201);
+  color: white;
+  height: 30px;
+  padding: 0px 8.5px;
+  background-color: rgb(15, 157, 201);
+  font-weight: 600;
+}
+
+select:hover {
+  z-index: 11;
+  background-color: rgb(7, 204, 106);
+  border-color: rgb(7, 204, 106);
+  color: white;
+
+}
+
+/*header end*/
+
+
+/*App description content start*/
+.wrap-inner-description-layer {
+  text-align: center;
+  margin: 10px 125px;
+
+}
+
+.wrap-inner-description-layer:nth-child(2) {
+  position: relative;
+  margin-top: 100px;
+}
+
+#content-layer {
+  margin: 10px 40px;
+  width: 1000px;
+}
+
+h1 cite blockquote {
+  font-size: 30pt;
+  width: 1000px;
+  background-image: linear-gradient(to left,
+      rgba(87, 226, 22, 0.8),
+      rgba(46, 218, 160, 0.5),
+      rgba(15, 157, 201, 0.8));
+  /* transform: rotate(-20deg); */
+  color: whitesmoke;
+}
+
+/*App description content end*/
+
+
+/*Astragalus content*/
+#span-heading {
+  display: block;
+  margin: auto auto;
+  font-size: 22pt;
+  background-image: linear-gradient(to left,
+      rgba(87, 226, 22, 0.8),
+      rgba(46, 218, 160, 0.5),
+      rgba(15, 157, 201, 0.8));
+}
+
+#paragraph-content2 {
+  margin: 0 142px 0 142px;
+  padding-bottom: 15px;
+  text-align: justify;
+}
+
+/*Astragalus content end*/
+
+
+/*Component rendering*/
+/* .content-layer {}*/
+.component-content-rendering {
+  margin: 40px auto 0 0;
+  background-color: rgba(4, 107, 110, 0.8);
+}
+
+.flex-content {
+  display: flex;
+}
+
+.component-ingredient-name {
+  margin: auto auto;
+  padding: 0 15px;
+  width: fit-content;
+  border-radius: 10px;
+  background: rgba(15, 157, 201, 0.8);
+}
+
+.Ingredient-hub ul {
+  display: flex;
+  justify-content: center;
+  width: inherit;
+  background-image: linear-gradient(to left,
+      rgba(87, 226, 22, 0.8),
+      rgba(46, 218, 160, 0.5),
+      rgba(15, 157, 201, 0.8));
+  gap: 30px;
+}
+
+.Ingredient-hub ul li {
+  list-style: none;
+  cursor: pointer;
+  padding: 4px 10px;
+  font-weight: 600;
+}
+
+.Ingredient-hub ul li:hover {
+  color: rgb(25, 183, 231);
+  background-color: rgb(255, 255, 255, 0.8);
+  font-weight: 600;
+
+}
+
+.paragraph-content {
+  margin: 10px auto;
+  text-align: justify;
+}
+
+
+.content-wrapper {
+  margin: 0 auto;
+}
+
+.content-wrapper:nth-child(1) {
+  margin: 10px 30px 20px;
+  width: 300px;
+  text-align: left;
+  border-right: 2px solid lightgreen;
+  font-size: 14pt;
+}
+
+.content-wrapper:nth-child(2) {
+  margin-left: 30px;
+  width: 560px;
+  text-align: left;
+}
+
+#paragraph-content1 {
+  margin: 0 30px 0 30px;
+  text-align: justify;
+}
+
+#paragraph-content2 h3 {
+  text-align: center;
+}
+
+
+
+/*Component rendering end*/
