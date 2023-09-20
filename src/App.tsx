@@ -18,10 +18,12 @@ function App() {
           </h1>
         </div>
         <div className="wrap-inner-description-layer">
-          <div>App content goes here</div>
+          {/* React Router will be used here to render different pages from different ingredients */}
+          <div id="content-layer">
+            <AppComponents.Astragalus />
+          </div>
         </div>
       </div>
-
     </div>
   );
 }
