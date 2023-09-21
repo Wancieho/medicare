@@ -7,8 +7,8 @@ function Astragalus_Overview() {
         <>
             <div className="flex-content">
                 <Ingredient ingredientName="Astragalus membranaceus"
-                    familyName="N/A" origin="Norhtern-Eastern China"
-                    geoLocation="Asian regions" />
+                    familyName="Fabaceae" origin="Plantae"
+                    geoLocation="Northern and Eastern China" />
 
                 <div className="content-wrapper">
                     <h2>What is Astragalus ?</h2>
@@ -35,23 +35,25 @@ function Astragalus_Overview() {
                 </div>
             </div>
             <div id="paragraph-content1">
-                <div className="Ingredient-benefits">
-                    <ul>
-                        <li>The liver</li>
-                        <li>The kidneys and urinary system</li>
-                        <li>Energy or “Qi”</li>
-                        <li>Blood sugar</li>
-                        <li>Seasonal allergies</li>
-                        <li>Upper respiratory tract</li>
-                    </ul>
-                    <ul>
-                        <li>Menstrual cycle</li>
-                        <li>Menopause</li>
-                        <li>Organs of detoxification</li>
-                        <li>The skin</li>
-                        <li>Pain/inflammation</li>
-                        <li>Stress response</li>
-                    </ul>
+                <div id="paragraph-content1-wrapper">
+                    <div className="Ingredient-benefits">
+                        <ul>
+                            <li>The liver</li>
+                            <li>The kidneys and urinary system</li>
+                            <li>Energy or “Qi”</li>
+                            <li>Blood sugar</li>
+                            <li>Seasonal allergies</li>
+                            <li>Upper respiratory tract</li>
+                        </ul>
+                        <ul>
+                            <li>Menstrual cycle</li>
+                            <li>Menopause</li>
+                            <li>Organs of detoxification</li>
+                            <li>The skin</li>
+                            <li>Pain/inflammation</li>
+                            <li>Stress response</li>
+                        </ul>
+                    </div>
                 </div>
                 <p>
                     The specific plant compounds in astragalus, such as polysaccharides (APS),
@@ -71,8 +73,8 @@ function Astragalus_Overview() {
                 the immune function by:
                 <ul>
 
-                    <li>Supporting all immune system organs, cells, and bacteria</li>
-                    <li>Promoting the proliferation of immune cells</li>
+                    <li>Supporting all immune system organs, cells, and bacteria.</li>
+                    <li>Promoting the proliferation of immune cells.</li>
                     <li>Stimulating the release of cytokines—small, secreted proteins
                         from cells that play a role in immune modulation and communication
                         between cells.</li>
@@ -148,9 +150,9 @@ function Astragalus_Overview() {
                     <span className="span-em">Frontiers of Pharmacology</span> showed that
                     astragalus polysaccharide promotes healthy blood sugar by:
                     <ul>
-                        <li>Supporting normal levels of blood glucose*</li>
-                        <li>Increasing the insulin sensitivity*</li>
-                        <li>Improving insulin resistance (IR)*</li>
+                        <li>Supporting normal levels of blood glucose</li>
+                        <li>Increasing the insulin sensitivity</li>
+                        <li>Improving insulin resistance (IR)</li>
                         <li>And inhibiting the apoptosis of islet β cells (pancreatic cells that play
                             a role in insulin production and blood sugar regulation).
                         </li>
@@ -262,10 +264,11 @@ function Astragalus_Overview() {
                 </p>
                 <p>
                     Research has found that astragalus polysaccharide is responsible for
-                    these benefits. A study entitled “Wound healing effect of an Astragalus membranaceus
-                    polysaccharide and its mechanism” found astragalus possessed high potential in wound
-                    healing. Its mechanism was associated with inhibiting inflammation, accelerating
-                    the cell cycle, and promoting the secretion of repair factors.
+                    these benefits. A study entitled: <span className="span-em">Wound healing effect of an
+                        Astragalus membranaceus polysaccharide and its mechanism</span> found astragalus possessed
+                    high potential in wound healing. Its mechanism was associated with inhibiting
+                    inflammation, accelerating the cell cycle, and promoting the secretion of repair
+                    factors.
 
                     Additional research published in the Journal of Ethnopharmacology has validated its
                     wound-healing and scar-reducing properties.
@@ -280,9 +283,9 @@ function SideAffects_Use() {
     return (
         <>
             <div className="flex-content">
-                <Ingredient ingredientName="Astragalus"
-                    familyName="N/A" origin="Unknown"
-                    geoLocation="Asian regions" />
+                <Ingredient ingredientName="Astragalus membranaceus"
+                    familyName="Fabaceae" origin="Plantae"
+                    geoLocation="Northern and Eastern China" />
 
                 <div className="content-wrapper">
                     <h2>Use of Astragalus?</h2>
@@ -341,9 +344,9 @@ function Interactions() {
     return (
         <>
             <div className="flex-content">
-                <Ingredient ingredientName="Astragalus"
-                    familyName="N/A" origin="Unknown"
-                    geoLocation="Asian regions" />
+                <Ingredient ingredientName="Astragalus membranaceus"
+                    familyName="Fabaceae" origin="Plantae"
+                    geoLocation="Northern and Eastern China" />
 
                 <div className="content-wrapper">
                     <h2>Interactions:</h2>
@@ -351,7 +354,7 @@ function Interactions() {
                     <p className="paragraph-content">
                         Be cautious using this combination!
                     </p>
-                    <h2>Cyclophosphamide interacts with ASTRAGALUS:</h2>
+                    <h2>Cyclophosphamide interacts with Astragalus:</h2>
                     <p className="paragraph-content">
                         Cyclophosphamide is used to make the immune system less
                         active. Astragalus increases the activity of the immune
@@ -372,7 +375,7 @@ function Interactions() {
 
                 </div>
             </div>
-            <div id="paragraph-content2">
+            <div className="paragraph-content2">
                 <h3>Lithium interacts with Astragalus:</h3>
                 <p className="paragraph-content">
                     Taking astragalus might decrease how well the body gets rid of lithium.
@@ -381,9 +384,9 @@ function Interactions() {
                     if you are taking lithium. Your lithium dose might need to be changed.
                 </p>
             </div>
-            <div>
+            <div className="paragraph-content2">
                 <h3>Wounds:</h3>
-                <p>
+                <p className="paragraph-content">
                     Serious wounds should always receive prompt medical attention.
                     However, if you would like to try astragalus on a small, superficial
                     cut or scrape, here's how to do in a professional manor:
@@ -403,17 +406,17 @@ function Interactions() {
 function Dosage() {
     return (
         <>
-
             <div className="flex-content">
-                <Ingredient ingredientName="Astragalus"
-                    familyName="N/A" origin="Unknown"
-                    geoLocation="Asian regions" />
+                <Ingredient ingredientName="Astragalus membranaceus"
+                    familyName="Fabaceae" origin="Plantae"
+                    geoLocation="Northern and Eastern China" />
 
                 <div className="content-wrapper">
-                    <div id="span-heading">
-                        <span>Dosage:</span>
-                    </div>
-                    <div className="Astragalus-content">
+
+                    <div className="content">
+                        <div id="span-heading">
+                            <span>Dosage:</span>
+                        </div>
                         <p>
                             Astragalus is available as the dried root, as an extract, and as a
                             liquid decoction. It is also often used in combination with other
@@ -423,7 +426,7 @@ function Dosage() {
                     </div>
                 </div>
             </div>
-            <div id="paragraph-content2">
+            <div className="paragraph-content2">
                 <h3>What are the side affects of using Astragalus and what is it's dosage?</h3>
                 <p>
                     Taken orally: Astragalus is possibly safe for most adult, however,
@@ -454,7 +457,7 @@ function Astragalus() {
                 </ul>
             </div>
             <div className="component-content-rendering">
-                {/* Components will be rendered here */}
+                {/* Components will be rendered here using react-router-dom <Link> components*/}
                 <Astragalus_Overview />
                 <SideAffects_Use />
                 <Interactions />
