@@ -14,9 +14,9 @@ const Header = () => {
     <div id="wrap-outer-layer-header">
       <div id="wrap-inner-layer-header">
         <div id="logo-search-container">
-          <input className="inputSearch" type="search" max="50" autoComplete="false" />
+          <input className="inputsearch" type="search" max="50" autoComplete="false" />
 
-          <input className="inputSearch" type="submit" value="Search" />
+          <input className="inputsearch" type="submit" value="Search" />
         </div>
       </div>
 

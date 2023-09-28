@@ -14,7 +14,7 @@ body {
 
 }
 
-#App {
+#app {
   display: block;
 }
 
@@ -69,7 +69,7 @@ body {
   display: block;
 }
 
-.inputSearch:nth-child(1) {
+.inputsearch:nth-child(1) {
   position: relative;
   height: 30px;
   border: none;
@@ -77,7 +77,7 @@ body {
   background-color: rgb(15, 157, 201);
 }
 
-.inputSearch:nth-child(2) {
+.inputsearch:nth-child(2) {
   position: relative;
   padding: 2px 5px;
   height: 30px;
@@ -125,7 +125,34 @@ select:hover {
   width: 1000px;
 }
 
-h1 cite blockquote {
+
+#content-layer .content-section2 {
+  margin: 0 142px 0 142px;
+  padding-bottom: 15px;
+  text-align: left;
+}
+
+h3,
+h4 {
+  margin-top: 50px;
+  text-align: left;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: cyan;
+  text-decoration: none;
+}
+
+.content-wrapper {
+  margin: 0 auto;
+}
+
+blockquote {
   font-size: 30pt;
   width: 1000px;
   background-image: linear-gradient(to left,
@@ -138,32 +165,14 @@ h1 cite blockquote {
 
 /*App description content end*/
 
-
-/*Astragalus content*/
-#span-heading {
-  display: block;
-  margin: auto auto;
-  font-size: 22pt;
-}
-
-.paragraph-content2 {
-  margin: 0 142px 0 142px;
-  padding-bottom: 15px;
-  text-align: justify;
-}
-
-/*Astragalus content end*/
-
-
 /*Component rendering*/
-/* .content-layer {}*/
+.flex-content {
+  display: flex;
+}
+
 .component-content-rendering {
   margin: 40px auto 0 0;
   background-color: rgba(4, 107, 110, 0.8);
-}
-
-.flex-content {
-  display: flex;
 }
 
 .component-ingredient-name {
@@ -174,7 +183,13 @@ h1 cite blockquote {
   background: rgba(15, 157, 201, 0.8);
 }
 
-.Ingredient-hub ul {
+#span-heading {
+  display: block;
+  margin: auto auto;
+  font-size: 22pt;
+}
+
+.ingredient-hub ul {
   display: flex;
   justify-content: center;
   width: inherit;
@@ -185,24 +200,35 @@ h1 cite blockquote {
   gap: 30px;
 }
 
-.Ingredient-hub ul li {
+.ingredient-hub ul li {
   list-style: none;
   cursor: pointer;
   font-weight: 600;
 }
 
-.Ingredient-hub ul li:hover {
+.ingredient-hub ul li:hover {
   color: rgb(25, 183, 231);
-  background-color: rgb(255, 255, 255, 0.8);
   font-weight: 600;
 
 }
 
-.Ingredient-benefits {
+.ingredient-benefits {
   width: 600px;
   margin: auto auto;
   display: flex;
   text-align: left;
+}
+
+.ingredient-benefits-a {
+  width: 600px;
+  margin: auto auto;
+  display: flex;
+  text-align: left;
+}
+
+.ingredient-benefits-a ul {
+  list-style: none;
+  width: auto;
 }
 
 /*Emphasize words in paragraphs*/
@@ -210,14 +236,7 @@ h1 cite blockquote {
   font-style: oblique;
 }
 
-.paragraph-content {
-  margin: 20px auto;
-  text-align: justify;
-}
-
-.content-wrapper {
-  margin: 0 auto;
-}
+/*Emphasize words in paragraphs end*/
 
 .content-wrapper:nth-child(1) {
   margin: 10px 30px 20px;
@@ -233,29 +252,6 @@ h1 cite blockquote {
   text-align: left;
 }
 
-#paragraph-content1 p {
-  margin: 10px auto;
-  text-align: justify left;
-  width: 800px;
-}
-
-a {
-  color: white;
-  text-decoration: underline;
-}
-
-a:hover {
-  color: cyan;
-  text-decoration: none;
-}
-
-#paragraph-content1 h1,
-#paragraph-content1 h2,
-#paragraph-content1 h3,
-#paragraph-content2 h3 {
-  margin-top: 50px;
-  text-align: center;
-}
 
 ul li,
 ol li {

@@ -2,7 +2,7 @@ import './App.css';
 import { AppComponents } from './imports';
 function App() {
   return (
-    <div id="App">
+    <div id="app">
       <AppComponents.Header />
       <div className="wrap-outer-description-layer">
         <div className="wrap-inner-description-layer">
@@ -20,8 +20,12 @@ function App() {
         <div className="wrap-inner-description-layer">
           {/* React Router will be used here to render different pages from different ingredients */}
           <div id="content-layer">
-            {/* <AppComponents.Astragalus /> */}
+            <AppComponents.Astragalus />
             <AppComponents.Chamomile />
+            <AppComponents.Lavender />
+            {/* <AppComponents.LemonBalm /> */}
+            {/* <AppComponents.Peppermint /> */}
+            {/* <AppComponents.Rosemary /> */}
           </div>
         </div>
       </div>
