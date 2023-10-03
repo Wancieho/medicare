@@ -1,4 +1,3 @@
-import logo from "./assets/Medicate-Global-image-logo1.jpg";
 import DropDowns from "./components/layout/Header/headerData";
 import Header from "./components/layout/Header/header";
 
@@ -26,7 +25,7 @@ import Licorice from "./components/layout/Header/Ingredients-content/Plants/Lico
 import Ginger from "./components/layout/Header/Ingredients-content/Spices/Ginger";
 import Turmeric from "./components/layout/Header/Ingredients-content/Spices/Turmeric";
 export const AppComponents = {
-    logo, Header, DropDowns, Dandelion, Enchinacea, Garlic, Ginkgo, GrapeSeeds,
+    Header, DropDowns, Dandelion, Enchinacea, Garlic, Ginkgo, GrapeSeeds,
     Sambucus, TeaTreeOil, Astragalus, Chamomile, Lavender, LemonBalm, Peppermint,
     Rosemary, FlaxSeeds, Ginseng, Licorice, Ginger, Turmeric
 }
