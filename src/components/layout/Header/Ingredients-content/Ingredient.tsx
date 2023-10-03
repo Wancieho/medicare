@@ -5,7 +5,7 @@ function Ingredient(props: any) {
                 <p>Ingredient Name: {props.ingredientName}</p>
                 <p>Family name: {props.familyName}</p>
                 <p>Origin: {props.origin}</p>
-                <p>Geo-Locaction: {props.geoLocation}</p>
+                <p>Geo-location: {props.geoLocation}</p>
             </div>
         </>
     )

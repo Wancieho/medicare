@@ -52,7 +52,7 @@ const dataSet2 = [
     {
         "plant": {
             "id": 2,
-            "name": "Chamomile"
+            "name": "Flax Seeds"
         }
     },
     {
@@ -83,12 +83,6 @@ const dataSet2 = [
         "plant": {
             "id": 7,
             "name": "Ginseng"
-        }
-    },
-    {
-        "plant": {
-            "id": 8,
-            "name": "Flax Seeds"
         }
     }
 ]
