@@ -20,7 +20,7 @@ import Peppermint from "./components/layout/Header/Ingredients-content/Herbs/Pep
 import Rosemary from "./components/layout/Header/Ingredients-content/Herbs/Rosemary";
 
 import FlaxSeeds from "./components/layout/Header/Ingredients-content/Plants/FlaxSeeds";
-import Ginseng from "./components/layout/Header/Ingredients-content/Plants/Gingseng";
+import Ginseng from "./components/layout/Header/Ingredients-content/Plants/Ginseng";
 import Licorice from "./components/layout/Header/Ingredients-content/Plants/Licorice";
 
 import Ginger from "./components/layout/Header/Ingredients-content/Spices/Ginger";
