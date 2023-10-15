@@ -5,23 +5,31 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
   letter-spacing: 1px;
-  background-size: 210vh;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   word-spacing: 2px;
   color: white;
   background-image: url("./assets/Medicate-Global-image-logo1.jpg");
+}
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: cyan;
 }
 
 #app {
   display: block;
+  position: relative;
 }
 
-/*header start*/
 #wrap-outer-layer-header {
   display: flex;
-  gap: 25px;
+  gap: 10px;
 }
 
 #wrap-inner-layer-header {
@@ -37,8 +45,9 @@ body {
   display: flex;
 }
 
-#p-click {
-  margin: auto 3px;
+#flex-items #ingredients-btn1,
+#flex-items #ingredients-btn2 {
+  justify-content: left;
 }
 
 #ingredients {
@@ -69,6 +78,49 @@ body {
   display: block;
 }
 
+.natural-material-wrapper {
+  display: block;
+  position: absolute;
+  text-align: center;
+  width: 1330px;
+  height: auto;
+  top: -500px;
+  left: -120px;
+}
+
+.natural-material-links {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  width: 100%;
+  background-color: rgb(15, 157, 201);
+  transition-timing-function: ease-out;
+  transition-duration: 350ms;
+}
+
+.natural-material-links.false {
+  display: none;
+}
+
+.natural-material-wrapper:nth-child(1) {
+  display: block;
+}
+
+.natural-material-wrapper:nth-child(2) {
+  display: flex;
+}
+
+.natural-material-wrapper .natural-material p {
+  text-decoration: underline;
+  color: aquamarine;
+}
+
+.natural-material-wrapper .natural-material a {
+  display: block;
+  margin: 20px 15px;
+  text-align: left;
+}
+
 .inputsearch:nth-child(1) {
   position: relative;
   height: 30px;
@@ -88,31 +140,10 @@ body {
   border: none;
 }
 
-select {
-  border-color: rgb(15, 157, 201);
-  color: white;
-  height: 30px;
-  padding: 0px 8.5px;
-  background-color: rgb(15, 157, 201);
-  font-weight: 600;
-}
-
-select:hover {
-  z-index: 11;
-  background-color: rgb(7, 204, 106);
-  border-color: rgb(7, 204, 106);
-  color: white;
-
-}
-
-/*header end*/
-
-
 /*App description content start*/
 .wrap-inner-description-layer {
   text-align: center;
-  margin: 10px 125px;
-
+  margin: 10px 130px;
 }
 
 .wrap-inner-description-layer:nth-child(2) {
@@ -125,27 +156,25 @@ select:hover {
   width: 1000px;
 }
 
-
 #content-layer .content-section2 {
   margin: 0 142px 0 142px;
   padding-bottom: 15px;
   text-align: left;
 }
 
+h2 {
+  margin-top: 30px;
+}
+
 h3,
 h4 {
-  margin-top: 50px;
+  margin-top: 40px;
   text-align: left;
 }
 
-a {
-  color: white;
-  text-decoration: underline;
-}
-
-a:hover {
-  color: cyan;
-  text-decoration: none;
+.content-section2 p,
+.content-wrapper:nth-child(2) p {
+  text-align: justify;
 }
 
 .content-wrapper {
@@ -209,21 +238,15 @@ blockquote {
 .ingredient-hub ul li:hover {
   color: rgb(25, 183, 231);
   font-weight: 600;
-
 }
 
-.ingredient-benefits {
-  width: 600px;
-  margin: auto auto;
-  display: flex;
-  text-align: left;
-}
-
+.ingredient-benefits,
 .ingredient-benefits-a {
   width: 600px;
   margin: auto auto;
   display: flex;
   text-align: left;
+  text-align: justify;
 }
 
 .ingredient-benefits-a ul {
@@ -252,7 +275,6 @@ blockquote {
   text-align: left;
 }
 
-
 ul li,
 ol li {
   margin: 10px 0;
@@ -262,5 +284,56 @@ ol li {
   margin: 0 auto 0 auto;
   text-align: center;
 }
+
+footer {
+  margin-top: -10px;
+  margin-bottom: -60px;
+  text-align: center;
+  background-color: rgb(15, 157, 201);
+}
+
+footer div {
+  display: flex;
+  padding: 10px 10px;
+  margin: auto auto;
+  gap: 50px;
+  text-align: center;
+}
+
+#contain-footer-content {
+  display: flex;
+  height: auto;
+  width: 800px;
+}
+
+.wrap-footer,
+form {
+  display: block;
+}
+
+.footer-description {
+  display: block;
+  margin: auto auto;
+}
+
+.footer-description {}
+
+.footer-description {}
+
+.form-child {
+  gap: 10px;
+  text-align: left;
+  width: inherit;
+
+}
+
+.form-child a:hover {
+  background-color: darkcyan;
+  transition-duration: .3s;
+  transition-timing-function: ease;
+  color: white;
+}
+
+
 
 /*Component rendering end*/
