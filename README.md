@@ -1,5 +1,11 @@
 # React + TypeScript + Vite
 
+to run it on any local machine:
+1- have the latest node.js version installed
+2- npm install vite and npm install typescript-separate commands in the same dir name
+3- In command prompt cd 'dir name' and enter
+4- npm run dev
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
