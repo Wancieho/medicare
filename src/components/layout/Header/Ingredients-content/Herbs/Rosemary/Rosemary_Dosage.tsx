@@ -32,7 +32,7 @@ function Rosemary_Dosage() {
             <div className="component-content-rendering">
                 <Outlet />
                 <div className="flex-content">
-                    <Ingredient ingredientName="Rosemary"
+                    <Ingredient ingredientName="Salvia rosmarinus(Rosemary)"
                         familyName="Lamiaceae" origin="Native to the Mediterranean region"
                         geoLocation="Mediterranean Region" />
                     <div className="content-wrapper">

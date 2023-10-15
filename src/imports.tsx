@@ -126,49 +126,49 @@ import Rosemary_Dosage from "./components/layout/Header/Ingredients-content/Herb
 import Grow_Rosemary from "./components/layout/Header/Ingredients-content/Herbs/Rosemary/Grow_Rosemary";
 
 
-// import FlaxSeeds from "./components/layout/Header/Ingredients-content/Plants/FlaxSeeds/FlaxSeeds";
-// import FlaxSeeds_Overview from "./components/layout/Header/Ingredients-content/Plants/FlaxSeeds/FlaxSeeds_Overview";
-// import FlaxSeeds_HowToUse from "./components/layout/Header/Ingredients-content/Plants/FlaxSeeds/FlaxSeeds_HowToUse";
-// import FlaxSeeds_Benefits from "./components/layout/Header/Ingredients-content/Plants/FlaxSeeds/FlaxSeeds_Benefits";
-// import FlaxSeeds_SideEffects from "./components/layout/Header/Ingredients-content/Plants/FlaxSeeds/FlaxSeeds_SideEffects";
-// import FlaxSeeds_Dosage from "./components/layout/Header/Ingredients-content/Plants/FlaxSeeds/FlaxSeeds_Dosage";
-// import Grow_FlaxSeeds from "./components/layout/Header/Ingredients-content/Plants/FlaxSeeds/Grow_FlaxSeeds";
+import FlaxSeeds from "./components/layout/Header/Ingredients-content/Plants/FlaxSeeds/FlaxSeeds";
+import FlaxSeeds_Overview from "./components/layout/Header/Ingredients-content/Plants/FlaxSeeds/FlaxSeeds_Overview";
+import FlaxSeeds_HowToUse from "./components/layout/Header/Ingredients-content/Plants/FlaxSeeds/FlaxSeeds_HowToUse";
+import FlaxSeeds_Benefits from "./components/layout/Header/Ingredients-content/Plants/FlaxSeeds/FlaxSeeds_Benefits";
+import FlaxSeeds_SideEffects from "./components/layout/Header/Ingredients-content/Plants/FlaxSeeds/FlaxSeeds_SideEffects";
+import FlaxSeeds_Dosage from "./components/layout/Header/Ingredients-content/Plants/FlaxSeeds/FlaxSeeds_Dosage";
+import Grow_FlaxSeeds from "./components/layout/Header/Ingredients-content/Plants/FlaxSeeds/Grow_FlaxSeeds";
 
 
-// import Ginseng from "./components/layout/Header/Ingredients-content/Plants/Gingseng/Gingseng";
-// import Ginseng_Overview from "./components/layout/Header/Ingredients-content/Plants/Gingseng/Gingseng_Overview";
-// import Ginseng_HowToUse from "./components/layout/Header/Ingredients-content/Plants/Gingseng/Gingseng_HowToUse";
-// import Ginseng_Benefits from "./components/layout/Header/Ingredients-content/Plants/Gingseng/Gingseng_Benefits";
-// import Ginseng_SideEffects from "./components/layout/Header/Ingredients-content/Plants/Gingseng/Gingseng_SideEffects";
-// import Ginseng_Dosage from "./components/layout/Header/Ingredients-content/Plants/Gingseng/Gingseng_Dosage";
-// import Grow_Ginseng from "./components/layout/Header/Ingredients-content/Plants/Gingseng/Grow_Gingseng";
+import Ginseng from "./components/layout/Header/Ingredients-content/Plants/Ginseng/Ginseng";
+import Ginseng_Overview from "./components/layout/Header/Ingredients-content/Plants/Ginseng/Ginseng_Overview";
+import Ginseng_HowToUse from "./components/layout/Header/Ingredients-content/Plants/Ginseng/Ginseng_HowToUse";
+import Ginseng_Benefits from "./components/layout/Header/Ingredients-content/Plants/Ginseng/Ginseng_Benefits";
+import Ginseng_SideEffects from "./components/layout/Header/Ingredients-content/Plants/Ginseng/Ginseng_SideEffects";
+import Ginseng_Dosage from "./components/layout/Header/Ingredients-content/Plants/Ginseng/Ginseng_Dosage";
+import Grow_Ginseng from "./components/layout/Header/Ingredients-content/Plants/Ginseng/Grow_Ginseng";
 
 
-// import Licorice from "./components/layout/Header/Ingredients-content/Plants/Licorice/Licorice";
-// import Licorice_Overview from "./components/layout/Header/Ingredients-content/Plants/Licorice/Licorice_Overview";
-// import Licorice_HowToUse from "./components/layout/Header/Ingredients-content/Plants/Licorice/Licorice_HowToUse";
-// import Licorice_Benefits from "./components/layout/Header/Ingredients-content/Plants/Licorice/Licorice_Benefits";
-// import Licorice_SideEffects from "./components/layout/Header/Ingredients-content/Plants/Licorice/Licorice_SideEffects";
-// import Licorice_Dosage from "./components/layout/Header/Ingredients-content/Plants/Licorice/Licorice_Dosage";
-// import Grow_Licorice from "./components/layout/Header/Ingredients-content/Plants/Licorice/Grow_Licorice";
+import Licorice from "./components/layout/Header/Ingredients-content/Plants/Licorice/Licorice";
+import Licorice_Overview from "./components/layout/Header/Ingredients-content/Plants/Licorice/Licorice_Overview";
+import Licorice_HowToUse from "./components/layout/Header/Ingredients-content/Plants/Licorice/Licorice_HowToUse";
+import Licorice_Benefits from "./components/layout/Header/Ingredients-content/Plants/Licorice/Licorice_Benefits";
+import Licorice_SideEffects from "./components/layout/Header/Ingredients-content/Plants/Licorice/Licorice_SideEffects";
+import Licorice_Dosage from "./components/layout/Header/Ingredients-content/Plants/Licorice/Licorice_Dosage";
+import Grow_Licorice from "./components/layout/Header/Ingredients-content/Plants/Licorice/Grow_Licorice";
 
 
-// import Ginger from "./components/layout/Header/Ingredients-content/Spices/Ginger/Ginger";
-// import Ginger_Overview from "./components/layout/Header/Ingredients-content/Spices/Ginger/Ginger_Overview";
-// import Ginger_HowToUse from "./components/layout/Header/Ingredients-content/Spices/Ginger/Ginger_HowToUse";
-// import Ginger_Benefits from "./components/layout/Header/Ingredients-content/Spices/Ginger/Ginger_Benefits";
-// import Ginger_SideEffects from "./components/layout/Header/Ingredients-content/Spices/Ginger/Ginger_SideEffects";
-// import Ginger_Dosage from "./components/layout/Header/Ingredients-content/Spices/Ginger/Ginger_Dosage";
-// import Grow_Ginger from "./components/layout/Header/Ingredients-content/Spices/Ginger/Grow_Ginger";
+import Ginger from "./components/layout/Header/Ingredients-content/Spices/Ginger/Ginger";
+import Ginger_Overview from "./components/layout/Header/Ingredients-content/Spices/Ginger/Ginger_Overview";
+import Ginger_HowToUse from "./components/layout/Header/Ingredients-content/Spices/Ginger/Ginger_HowToUse";
+import Ginger_Benefits from "./components/layout/Header/Ingredients-content/Spices/Ginger/Ginger_Benefits";
+import Ginger_SideEffects from "./components/layout/Header/Ingredients-content/Spices/Ginger/Ginger_SideEffects";
+import Ginger_Dosage from "./components/layout/Header/Ingredients-content/Spices/Ginger/Ginger_Dosage";
+import Grow_Ginger from "./components/layout/Header/Ingredients-content/Spices/Ginger/Grow_Ginger";
 
 
-// import Turmeric from "./components/layout/Header/Ingredients-content/Spices/Turmeric/Turmeric";
-// import Turmeric_Overview from "./components/layout/Header/Ingredients-content/Spices/Turmeric/Turmeric_Overview";
-// import Turmeric_HowToUse from "./components/layout/Header/Ingredients-content/Spices/Turmeric/Turmeric_HowToUse";
-// import Turmeric_Benefits from "./components/layout/Header/Ingredients-content/Spices/Turmeric/Turmeric_Benefits";
-// import Turmeric_SideEffects from "./components/layout/Header/Ingredients-content/Spices/Turmeric/Turmeric_SideEffects";
-// import Turmeric_Dosage from "./components/layout/Header/Ingredients-content/Spices/Turmeric/Turmeric_Dosage";
-// import Grow_Turmeric from "./components/layout/Header/Ingredients-content/Spices/Turmeric/Grow_Turmeric";
+import Turmeric from "./components/layout/Header/Ingredients-content/Spices/Turmeric/Turmeric";
+import Turmeric_Overview from "./components/layout/Header/Ingredients-content/Spices/Turmeric/Turmeric_Overview";
+import Turmeric_HowToUse from "./components/layout/Header/Ingredients-content/Spices/Turmeric/Turmeric_HowToUse";
+import Turmeric_Benefits from "./components/layout/Header/Ingredients-content/Spices/Turmeric/Turmeric_Benefits";
+import Turmeric_SideEffects from "./components/layout/Header/Ingredients-content/Spices/Turmeric/Turmeric_SideEffects";
+import Turmeric_Dosage from "./components/layout/Header/Ingredients-content/Spices/Turmeric/Turmeric_Dosage";
+import Grow_Turmeric from "./components/layout/Header/Ingredients-content/Spices/Turmeric/Grow_Turmeric";
 
 
 export const AppComponents = {
@@ -297,76 +297,50 @@ export const AppComponents = {
     Rosemary_Benefits,
     Rosemary_SideEffects,
     Rosemary_Dosage,
-    Grow_Rosemary
+    Grow_Rosemary,
 
 
-    // FlaxSeeds,
-    // FlaxSeeds_Overview,
-    // FlaxSeeds_HowToUse,
-    // FlaxSeeds_Benefits,
-    // FlaxSeeds_SideEffects,
-    // FlaxSeeds_Dosage,
-    // Grow_FlaxSeeds,
+    FlaxSeeds,
+    FlaxSeeds_Overview,
+    FlaxSeeds_HowToUse,
+    FlaxSeeds_Benefits,
+    FlaxSeeds_SideEffects,
+    FlaxSeeds_Dosage,
+    Grow_FlaxSeeds,
 
 
-    // Ginseng,
-    // Ginseng_Overview,
-    // Ginseng_HowToUse,
-    // Ginseng_Benefits,
-    // Ginseng_SideEffects,
-    // Ginseng_Dosage,
-    // Grow_Ginseng,
+    Ginseng,
+    Ginseng_Overview,
+    Ginseng_HowToUse,
+    Ginseng_Benefits,
+    Ginseng_SideEffects,
+    Ginseng_Dosage,
+    Grow_Ginseng,
 
 
-    // Licorice,
-    // Licorice_Overview,
-    // Licorice_HowToUse,
-    // Licorice_Benefits,
-    // Licorice_SideEffects,
-    // Licorice_Dosage,
-    // Grow_Licorice,
+    Licorice,
+    Licorice_Overview,
+    Licorice_HowToUse,
+    Licorice_Benefits,
+    Licorice_SideEffects,
+    Licorice_Dosage,
+    Grow_Licorice,
 
 
-    // Ginger,
-    // Ginger_Overview,
-    // Ginger_HowToUse,
-    // Ginger_Benefits,
-    // Ginger_SideEffects,
-    // Ginger_Dosage,
-    // Grow_Ginger,
+    Ginger,
+    Ginger_Overview,
+    Ginger_HowToUse,
+    Ginger_Benefits,
+    Ginger_SideEffects,
+    Ginger_Dosage,
+    Grow_Ginger,
 
 
-    // Turmeric,
-    // Turmeric_Overview,
-    // Turmeric_HowToUse,
-    // Turmeric_Benefits,
-    // Turmeric_SideEffects,
-    // Turmeric_Dosage,
-    // Grow_Turmeric
-
-import Dandelion from "./components/layout/Header/Ingredients-content/Extracts/Dandelion";
-import Enchinacea from "./components/layout/Header/Ingredients-content/Extracts/Enchinacea";
-import Garlic from "./components/layout/Header/Ingredients-content/Extracts/Garlic";
-import Ginkgo from "./components/layout/Header/Ingredients-content/Extracts/Ginkgo";
-import GrapeSeeds from "./components/layout/Header/Ingredients-content/Extracts/Grape-Seeds";
-import Sambucus from "./components/layout/Header/Ingredients-content/Extracts/Sambucus";
-import TeaTreeOil from "./components/layout/Header/Ingredients-content/Extracts/Tea-Tree-Oil";
-
-import Astragalus from "./components/layout/Header/Ingredients-content/Herbs/Astragalus";
-import Chamomile from "./components/layout/Header/Ingredients-content/Herbs/Chamomile";
-import Lavender from "./components/layout/Header/Ingredients-content/Herbs/Lavender";
-import LemonBalm from "./components/layout/Header/Ingredients-content/Herbs/Lemon-Balm";
-import Peppermint from "./components/layout/Header/Ingredients-content/Herbs/Peppermint";
-import Rosemary from "./components/layout/Header/Ingredients-content/Herbs/Rosemary";
-
-import FlaxSeeds from "./components/layout/Header/Ingredients-content/Plants/FlaxSeeds";
-import Ginseng from "./components/layout/Header/Ingredients-content/Plants/Ginseng";
-import Licorice from "./components/layout/Header/Ingredients-content/Plants/Licorice";
-
-import Ginger from "./components/layout/Header/Ingredients-content/Spices/Ginger";
-import Turmeric from "./components/layout/Header/Ingredients-content/Spices/Turmeric";
-export const AppComponents = {
-    Dandelion, Enchinacea, Garlic, Ginkgo, GrapeSeeds,
-    Sambucus, TeaTreeOil, Astragalus, Chamomile, Lavender, LemonBalm, Peppermint,
-    Rosemary, FlaxSeeds, Ginseng, Licorice, Ginger, Turmeric
+    Turmeric,
+    Turmeric_Overview,
+    Turmeric_HowToUse,
+    Turmeric_Benefits,
+    Turmeric_SideEffects,
+    Turmeric_Dosage,
+    Grow_Turmeric
 }

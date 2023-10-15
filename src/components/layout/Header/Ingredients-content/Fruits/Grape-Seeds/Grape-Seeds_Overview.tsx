@@ -32,7 +32,7 @@ function Grape_Seeds_Overview() {
             <div className="component-content-rendering">
                 <Outlet />
                 <div className="flex-content">
-                    <Ingredient ingredientName="Grape (Vitis vinifera)"
+                    <Ingredient ingredientName="Grape Seeds"
                         familyName="Vitaceae" origin="Native to the Mediterranean 
                     region, central Europe and southwest Asia"
                         geoLocation="Mediterranean 
