@@ -25,7 +25,7 @@ function Turmeric_Overview() {
                         <Link to="/Turmeric_Dosage">Dosage</Link>
                     </li>
                     <li>
-                        <Link to="/Grow_Turmeric">Grow Ginger</Link>
+                        <Link to="/Grow_Turmeric">Grow Turmeric</Link>
                     </li>
                 </ul>
             </div>
