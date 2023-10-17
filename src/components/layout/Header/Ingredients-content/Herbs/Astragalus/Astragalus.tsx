@@ -24,7 +24,7 @@ function Astragalus() {
                         <Link to="/Astragalus_Dosage">Dosage</Link>
                     </li>
                     <li>
-                        <Link to="/Grow_Astragalus">Grow Grape Seeds</Link>
+                        <Link to="/Grow_Astragalus">Grow Astragalus</Link>
                     </li>
                 </ul>
             </div>
